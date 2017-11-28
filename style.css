@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
+
+html {
+	height: 100%;
+}
+
+body {
+	background: linear-gradient(to bottom, rgba(183,222,237,1) 0%,rgba(113,206,239,1) 50%,rgba(33,180,226,1) 51%,rgba(183,222,237,1) 100%);
+	min-height: 100%;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	position: relative;
+	margin: 0;
+	color: #373737;
+}
+
+main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #f4f4f4;
+	padding: 25px;
+	border-radius: 24px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 28px;
+}
+
+button, a {
+	width: 200px;
+	display: inline-block;
+  padding: 6px 0;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #333;
+  background-color: #dcd0c0;
+  border-color: #c0b283;
+  transition: 0.5s ease-out;
+}
+
+button:hover, a:hover {
+  color: #333;
+  background-color: #c0b283;
+  border-color: #373737;
+}
+
+.buttons {
+	width: 406px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	padding: 5px 0;
+}
