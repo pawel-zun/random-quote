@@ -73,8 +73,8 @@ h2::after {
 	position: absolute;
 	font-size: 150px;
 	color: #dcd0c0;
-	top: 55px;
 	left: 40px;
+	top: -30px;
 	z-index: -1;
 	opacity: 0.7;
 }
@@ -88,4 +88,15 @@ h3 {
 	margin-bottom: 25px;
   width: 550px;
   min-height: 100px;
+  position: relative;
+}
+
+.preloader {
+	width: 32px;
+	height: 32px;
+	background-image: url('ajax-loader.gif');
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -16px 0 0 -16px;
 }
